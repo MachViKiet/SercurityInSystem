@@ -1,0 +1,83 @@
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\PHANHE1_PRJ.exe.config
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\PHANHE1_PRJ.exe
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\PHANHE1_PRJ.pdb
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Json.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.ValueTuple.dll
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Buffers.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Memory.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Json.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.ValueTuple.xml
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Form1.resources
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.exe
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.pdb
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.QUANTRI_CONSOLE.resources
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_Users.resources
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_Roles.resources
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Grant_Role_to_User.resources
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_Role_Privs.resources
+C:\Users\ADMIN\Desktop\winfromdemo\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_User_Privs.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\PHANHE1_PRJ.exe.config
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\PHANHE1_PRJ.exe
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\PHANHE1_PRJ.pdb
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Buffers.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Memory.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Json.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.ValueTuple.dll
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Buffers.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Memory.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Text.Json.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\bin\Debug\System.ValueTuple.xml
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Form1.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Grant_Role_to_User.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_Role_Privs.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_Roles.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_User_Privs.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Management_Users.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.Properties.Resources.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.QUANTRI_CONSOLE.resources
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.GenerateResource.cache
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_.80323C1F.Up2Date
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.exe
+C:\Users\dell\Downloads\Security in IS\Security in IS\PHAN1\PHANHE1_PRJ\PHANHE1_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.pdb
