@@ -91,16 +91,88 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CONNECTIONSTRING.cs" />
+    <Compile Include="fDashboardUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDashboardUser.Designer.cs">
+      <DependentUpon>fDashboardUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fGiangVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fGiangVien.Designer.cs">
+      <DependentUpon>fGiangVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fGiaoVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fGiaoVu.Designer.cs">
+      <DependentUpon>fGiaoVu.cs</DependentUpon>
+    </Compile>
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="fNhanSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhanSu.Designer.cs">
+      <DependentUpon>fNhanSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPersonal_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPersonal_Information.Designer.cs">
+      <DependentUpon>fPersonal_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSchool_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSchool_Information.Designer.cs">
+      <DependentUpon>fSchool_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTruongDonVi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTruongDonVi.Designer.cs">
+      <DependentUpon>fTruongDonVi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTruongKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTruongKhoa.Designer.cs">
+      <DependentUpon>fTruongKhoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fDashboardUser.resx">
+      <DependentUpon>fDashboardUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fGiangVien.resx">
+      <DependentUpon>fGiangVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fGiaoVu.resx">
+      <DependentUpon>fGiaoVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNhanSu.resx">
+      <DependentUpon>fNhanSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPersonal_Information.resx">
+      <DependentUpon>fPersonal_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSchool_Information.resx">
+      <DependentUpon>fSchool_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTruongDonVi.resx">
+      <DependentUpon>fTruongDonVi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTruongKhoa.resx">
+      <DependentUpon>fTruongKhoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

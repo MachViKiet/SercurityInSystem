@@ -29,7 +29,11 @@ namespace PHANHE1_PRJ
         private void bt_DANGNHAP_Click(object sender, EventArgs e)
         {
             str.setConStr(P_USERNAME.Text, P_PASSWORD.Text);
-            // str.setConStr("QL_TRUONGHOC_X", "123");
+            // str.setConStr("X_NS010", "123"); // Nhan vien co ban
+            // str.setConStr("X_NS002", "123"); // Truong don vi
+            // str.setConStr("X_NS038", "123"); // Giang vien
+            // str.setConStr("X_NS101", "123"); // Giao vu
+
 
             OracleConnection con = new OracleConnection(new CONNECTIONSTRING().getString());
 
@@ -38,18 +42,22 @@ namespace PHANHE1_PRJ
                 con.Open();
                 con.Close();
 
-                //role_management obj = new role_management();
-                //obj.Show();
+                fDashboardUser dashboard = new fDashboardUser(con);
                 MessageBox.Show("Login successful.");
                 this.Hide();
-
+                dashboard.ShowDialog();
+                this.Show();
             }
             catch (Exception ex)
             {
                 con.Close();
                 MessageBox.Show("Invalid name or password.");
             }
-          
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

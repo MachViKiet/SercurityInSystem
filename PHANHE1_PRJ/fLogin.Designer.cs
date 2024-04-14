@@ -34,6 +34,7 @@
             this.P_PASSWORD = new System.Windows.Forms.TextBox();
             this.bt_DANGNHAP = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@
             // P_USERNAME
             // 
             this.P_USERNAME.Location = new System.Drawing.Point(256, 53);
-            this.P_USERNAME.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.P_USERNAME.Margin = new System.Windows.Forms.Padding(5);
             this.P_USERNAME.Name = "P_USERNAME";
             this.P_USERNAME.Size = new System.Drawing.Size(450, 38);
             this.P_USERNAME.TabIndex = 3;
@@ -69,7 +70,7 @@
             // P_PASSWORD
             // 
             this.P_PASSWORD.Location = new System.Drawing.Point(256, 114);
-            this.P_PASSWORD.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.P_PASSWORD.Margin = new System.Windows.Forms.Padding(5);
             this.P_PASSWORD.Name = "P_PASSWORD";
             this.P_PASSWORD.Size = new System.Drawing.Size(450, 38);
             this.P_PASSWORD.TabIndex = 4;
@@ -77,8 +78,8 @@
             // 
             // bt_DANGNHAP
             // 
-            this.bt_DANGNHAP.Location = new System.Drawing.Point(256, 189);
-            this.bt_DANGNHAP.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bt_DANGNHAP.Location = new System.Drawing.Point(414, 190);
+            this.bt_DANGNHAP.Margin = new System.Windows.Forms.Padding(5);
             this.bt_DANGNHAP.Name = "bt_DANGNHAP";
             this.bt_DANGNHAP.Size = new System.Drawing.Size(244, 65);
             this.bt_DANGNHAP.TabIndex = 5;
@@ -88,6 +89,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.bt_DANGNHAP);
             this.panel1.Controls.Add(this.P_PASSWORD);
             this.panel1.Controls.Add(this.P_USERNAME);
@@ -98,15 +100,26 @@
             this.panel1.Size = new System.Drawing.Size(736, 302);
             this.panel1.TabIndex = 6;
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(83, 190);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(244, 65);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Thoát";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // fLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(776, 329);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Name = "fLogin";
             this.Text = "Đăng nhập";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -121,6 +134,7 @@
         private System.Windows.Forms.TextBox P_PASSWORD;
         private System.Windows.Forms.Button bt_DANGNHAP;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

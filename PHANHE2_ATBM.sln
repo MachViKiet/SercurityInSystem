@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHANHE2_ATBM", "PHANHE1_PRJ\PHANHE2_ATBM.csproj", "{D2A0E508-734A-42B8-9EED-56B9BA7ECFEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHANHE1_ATBM", "PHANHE1_PRJ\PHANHE1_ATBM.csproj", "{D2A0E508-734A-42B8-9EED-56B9BA7ECFEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
