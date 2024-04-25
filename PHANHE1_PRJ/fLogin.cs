@@ -28,11 +28,14 @@ namespace PHANHE1_PRJ
 
         private void bt_DANGNHAP_Click(object sender, EventArgs e)
         {
-            str.setConStr(P_USERNAME.Text, P_PASSWORD.Text);
+             str.setConStr(P_USERNAME.Text, P_PASSWORD.Text);
             // str.setConStr("X_NS010", "123"); // Nhan vien co ban
             // str.setConStr("X_NS002", "123"); // Truong don vi
             // str.setConStr("X_NS038", "123"); // Giang vien
             // str.setConStr("X_NS101", "123"); // Giao vu
+
+            // str.setConStr("X_SV000422", "123"); // Giao vu
+
 
 
             OracleConnection con = new OracleConnection(new CONNECTIONSTRING().getString());

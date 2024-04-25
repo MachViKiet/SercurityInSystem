@@ -32,9 +32,16 @@ namespace PHANHE1_PRJ
             display_table_KHMO();
             display_table_DonVi();
             display_table_HocPhan();
+
+            bool init = display_table_SinhVien() && display_table_KHMO() && display_table_DonVi() &&  display_table_HocPhan();
+
+            if (!init)
+            {
+                this.Close();
+            }
         }
 
-        private void display_table_SinhVien()
+        private bool display_table_SinhVien()
         {
             try
             {
@@ -47,15 +54,18 @@ namespace PHANHE1_PRJ
                 adpt.Fill(dt);
                 dataGridView_SinhVien.DataSource = dt;
                 connect.Close();
+                return true;
             }
             catch (Exception ex)
             {
                 connect.Close();
                 MessageBox.Show(ex.Message);
+                return false;
+
             }
         }
 
-        private void display_table_DonVi()
+        private bool display_table_DonVi()
         {
             try
             {
@@ -68,15 +78,19 @@ namespace PHANHE1_PRJ
                 adpt.Fill(dt);
                 dataGridView_DonVi.DataSource = dt;
                 connect.Close();
+                return true;
+
             }
             catch (Exception ex)
             {
                 connect.Close();
                 MessageBox.Show(ex.Message);
+                return false;
+
             }
         }
 
-        private void display_table_HocPhan()
+        private bool display_table_HocPhan()
         {
             try
             {
@@ -89,15 +103,19 @@ namespace PHANHE1_PRJ
                 adpt.Fill(dt);
                 dataGridView_HocPhan.DataSource = dt;
                 connect.Close();
+                return true;
+
             }
             catch (Exception ex)
             {
                 connect.Close();
                 MessageBox.Show(ex.Message);
+                return false;
+
             }
         }
 
-        private void display_table_KHMO()
+        private bool display_table_KHMO()
         {
             try
             {
@@ -110,11 +128,15 @@ namespace PHANHE1_PRJ
                 adpt.Fill(dt);
                 dataGridView_KHMO.DataSource = dt;
                 connect.Close();
+                return true;
+
             }
             catch (Exception ex)
             {
                 connect.Close();
                 MessageBox.Show(ex.Message);
+                return false;
+
             }
         }
 

@@ -39,7 +39,14 @@ namespace PHANHE1_PRJ
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chưa làm.");
+            fStudent nhansu = new fStudent(connect);
+  
+            if (!nhansu.IsDisposed)
+            {
+                this.Hide();
+                nhansu.ShowDialog();
+                this.Show();
+            }
         }
 
         private void fDashboardUser_Load(object sender, EventArgs e)

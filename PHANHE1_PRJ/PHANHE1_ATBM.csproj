@@ -91,6 +91,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CONNECTIONSTRING.cs" />
+    <Compile Include="fDangKyHocPhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDangKyHocPhan.Designer.cs">
+      <DependentUpon>fDangKyHocPhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="fDashboardUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,18 @@
     <Compile Include="fSchool_Information.Designer.cs">
       <DependentUpon>fSchool_Information.cs</DependentUpon>
     </Compile>
+    <Compile Include="fStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStudent.Designer.cs">
+      <DependentUpon>fStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fThongtinSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fThongtinSinhVien.Designer.cs">
+      <DependentUpon>fThongtinSinhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="fTruongDonVi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +165,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fDangKyHocPhan.resx">
+      <DependentUpon>fDangKyHocPhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fDashboardUser.resx">
       <DependentUpon>fDashboardUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +188,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fSchool_Information.resx">
       <DependentUpon>fSchool_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fStudent.resx">
+      <DependentUpon>fStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThongtinSinhVien.resx">
+      <DependentUpon>fThongtinSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fTruongDonVi.resx">
       <DependentUpon>fTruongDonVi.cs</DependentUpon>

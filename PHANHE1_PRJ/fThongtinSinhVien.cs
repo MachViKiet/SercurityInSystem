@@ -14,7 +14,7 @@ using Oracle.ManagedDataAccess.Client;
 
 namespace PHANHE1_PRJ
 {
-    public partial class fPersonal_Information : Form
+    public partial class fThongtinSinhVien : Form
     {
         private OracleConnection connect; // field
 
@@ -23,12 +23,12 @@ namespace PHANHE1_PRJ
             get { return connect; }   // get method
             set { connect = value; }  // set method
         }
-        public fPersonal_Information(OracleConnection conn)
+        public fThongtinSinhVien(OracleConnection conn)
         {
             connect = conn;
             InitializeComponent();
-            bool init = loadData();
 
+            bool init = loadData();
             if (!init)
             {
                 this.Close();
@@ -37,7 +37,7 @@ namespace PHANHE1_PRJ
 
         private bool loadData()
         {
-            string query = "select * from QL_TRUONGHOC_X.V_PERSONAL_INF_NHANSU";
+            string query = "select * from QL_TRUONGHOC_X.SINHVIEN";
             OracleCommand command = new OracleCommand(query, connect);
             try
             {
@@ -51,14 +51,18 @@ namespace PHANHE1_PRJ
 
                 // In dữ liệu
                 reader.Read();
-                lb_ma.Text = reader[0].ToString();
-                lb_name.Text = reader[1].ToString();
+                label_masv.Text = reader[0].ToString();
+                label_hoten.Text = reader[1].ToString();
                 // Đọc giới tính
-                lb_date.Text = reader[3].ToString();
-                lb_phucap.Text = reader[4].ToString();
-                lb_sdt.Text = reader[5].ToString();
-                lb_role.Text = reader[6].ToString();
-                lb_donvi.Text = reader[7].ToString();
+                label_phai.Text = reader[2].ToString();
+                label_ngaysinh.Text = reader[3].ToString();
+                textBox_diachi.Text = reader[4].ToString();
+                textBox_dt.Text = reader[5].ToString();
+                label_ct.Text = reader[6].ToString();
+                label_manganh.Text = reader[7].ToString();
+                label_tbtl.Text = reader[8].ToString();
+                label_diemtong.Text = reader[9].ToString();
+
 
                 Console.WriteLine();
                 return true;
@@ -67,26 +71,15 @@ namespace PHANHE1_PRJ
             {
                 Console.WriteLine("Error: " + ex.Message);
                 return false;
-
             }
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void fPersonal_Information_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
-            OracleCommand command = new OracleCommand("BEGIN\nQL_TRUONGHOC_X.UPDATE_PHONE(:P_NEWPHONE);\nEND;", connect);
-            command.Parameters.Add(new OracleParameter("P_NEWPHONE", textBox1.Text));
+            OracleCommand command = new OracleCommand("BEGIN\nQL_TRUONGHOC_X.UPDATE_INF_STUDENT(:P_NEWPHONE,:P_NEWADDRESS);\nEND;", connect);
+            command.Parameters.Add(new OracleParameter("P_NEWADDRESS", textBox_diachi.Text));
+            command.Parameters.Add(new OracleParameter("P_NEWPHONE", textBox_dt.Text));
             try
             {
                 if (connect.State != System.Data.ConnectionState.Open)
@@ -107,6 +100,11 @@ namespace PHANHE1_PRJ
             {
                 Console.WriteLine("Error: " + ex.Message);
             }
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

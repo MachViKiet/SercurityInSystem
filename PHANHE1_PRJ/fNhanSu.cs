@@ -33,16 +33,24 @@ namespace PHANHE1_PRJ
         {
             fPersonal_Information pi = new fPersonal_Information(connect);
             this.Hide();
-            pi.ShowDialog();
-            this.Show();
+            if (!pi.IsDisposed)
+            {
+                this.Hide();
+                pi.ShowDialog();
+                this.Show();
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             fSchool_Information si = new fSchool_Information(connect);
             this.Hide();
-            si.ShowDialog();
-            this.Show();
+            if (!si.IsDisposed)
+            {
+                this.Hide();
+                si.ShowDialog();
+                this.Show();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

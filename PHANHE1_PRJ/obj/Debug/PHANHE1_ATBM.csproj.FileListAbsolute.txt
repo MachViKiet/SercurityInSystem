@@ -41,3 +41,6 @@ C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ
 C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fDashboardUser.resources
 C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fNhanSu.resources
 C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fGiaoVu.resources
+C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fStudent.resources
+C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fDangKyHocPhan.resources
+C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fThongtinSinhVien.resources
