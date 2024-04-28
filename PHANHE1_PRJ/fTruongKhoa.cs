@@ -29,7 +29,8 @@ namespace PHANHE1_PRJ
             InitializeComponent();
             bool init = display_table_DS_PHANCONG() 
                 && display_table_DS_DANGKY()
-                && display_table_DS_NHANSU();
+                && display_table_DS_NHANSU()
+            && display_table_DS_NHANSU_2();
             if (!init)
             {
                 this.Close();

@@ -107,7 +107,7 @@
             this.dataGridView_DonVi.Name = "dataGridView_DonVi";
             this.dataGridView_DonVi.RowHeadersWidth = 102;
             this.dataGridView_DonVi.RowTemplate.Height = 40;
-            this.dataGridView_DonVi.Size = new System.Drawing.Size(1752, 399);
+            this.dataGridView_DonVi.Size = new System.Drawing.Size(1752, 743);
             this.dataGridView_DonVi.TabIndex = 0;
             // 
             // tabPage3
@@ -173,6 +173,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "fSchool_Information";
             this.Text = "Thông Tin Trường Học X";
+            this.Load += new System.EventHandler(this.fSchool_Information_Load);
             this.tabControl3.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SinhVien)).EndInit();

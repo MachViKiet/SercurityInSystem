@@ -144,5 +144,10 @@ namespace PHANHE1_PRJ
         {
 
         }
+
+        private void fSchool_Information_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
