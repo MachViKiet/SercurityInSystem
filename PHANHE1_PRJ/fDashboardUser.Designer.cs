@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button_notification = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,20 +68,31 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button_notification);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(5, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(897, 247);
+            this.panel1.Size = new System.Drawing.Size(897, 360);
             this.panel1.TabIndex = 3;
+            // 
+            // button_notification
+            // 
+            this.button_notification.Location = new System.Drawing.Point(286, 229);
+            this.button_notification.Name = "button_notification";
+            this.button_notification.Size = new System.Drawing.Size(333, 101);
+            this.button_notification.TabIndex = 3;
+            this.button_notification.Text = "Xem Thông Báo";
+            this.button_notification.UseVisualStyleBackColor = true;
+            this.button_notification.Click += new System.EventHandler(this.button3_Click);
             // 
             // fDashboardUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(918, 275);
+            this.ClientSize = new System.Drawing.Size(918, 416);
             this.Controls.Add(this.panel1);
             this.Name = "fDashboardUser";
             this.Text = "Trang Chủ";
@@ -97,5 +109,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button_notification;
     }
 }

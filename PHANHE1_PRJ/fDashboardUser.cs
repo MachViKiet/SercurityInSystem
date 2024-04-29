@@ -53,5 +53,17 @@ namespace PHANHE1_PRJ
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            fNotification noti = new fNotification(connect);
+
+            if (!noti.IsDisposed)
+            {
+                this.Hide();
+                noti.ShowDialog();
+                this.Show();
+            }
+        }
     }
 }

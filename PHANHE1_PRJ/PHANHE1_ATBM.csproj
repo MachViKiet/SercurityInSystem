@@ -127,6 +127,12 @@
     <Compile Include="fNhanSu.Designer.cs">
       <DependentUpon>fNhanSu.cs</DependentUpon>
     </Compile>
+    <Compile Include="fNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNotification.Designer.cs">
+      <DependentUpon>fNotification.cs</DependentUpon>
+    </Compile>
     <Compile Include="fPersonal_Information.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fNhanSu.resx">
       <DependentUpon>fNhanSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNotification.resx">
+      <DependentUpon>fNotification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fPersonal_Information.resx">
       <DependentUpon>fPersonal_Information.cs</DependentUpon>

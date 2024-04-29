@@ -27,10 +27,12 @@ namespace PHANHE1_PRJ
         {
             connect = conn;
             InitializeComponent();
-            bool init = display_table_DS_PHANCONG() 
+            bool init = display_table_DS_PHANCONG()
                 && display_table_DS_DANGKY()
                 && display_table_DS_NHANSU()
-            && display_table_DS_NHANSU_2();
+            && display_table_DS_NHANSU_2()
+            && load_Data_dataGridView_hocphan()
+            && load_Data_dataGridView_phancong();
             if (!init)
             {
                 this.Close();
@@ -220,7 +222,51 @@ namespace PHANHE1_PRJ
             return true;
         }
 
+        private bool load_Data_dataGridView_phancong()
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                if (connect.State != System.Data.ConnectionState.Open)
+                {
+                    connect.Open();
+                }
+                OracleDataAdapter adpt = new OracleDataAdapter("SELECT * FROM QL_TRUONGHOC_X.PHANCONG_CHITIET", connect);
+                adpt.Fill(dt);
+                dataGridView_phancong.DataSource = dt;
+                connect.Close();
+            }
+            catch (Exception ex)
+            {
+                connect.Close();
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            return true;
+        }
 
+        private bool load_Data_dataGridView_hocphan()
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                if (connect.State != System.Data.ConnectionState.Open)
+                {
+                    connect.Open();
+                }
+                OracleDataAdapter adpt = new OracleDataAdapter("SELECT * FROM QL_TRUONGHOC_X.PHANCONG_CHITIET_VPK", connect);
+                adpt.Fill(dt);
+                dataGridView_hocphan.DataSource = dt;
+                connect.Close();
+            }
+            catch (Exception ex)
+            {
+                connect.Close();
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            return true;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -288,8 +334,13 @@ namespace PHANHE1_PRJ
 
         private void button9_Click(object sender, EventArgs e)
         {
-            OracleCommand command = new OracleCommand("BEGIN\nQL_TRUONGHOC_X.TRUONGKHOA_DELETE_PHANCONG( :p_MAHP );\nEND;", connect);
+            OracleCommand command = new OracleCommand("BEGIN\nQL_TRUONGHOC_X.TRUONGKHOA_DELETE_PHANCONG( :p_MAHP,:p_MAGV,:p_NAM,:p_HK,:p_MACT );\nEND;", connect);
+            command.Parameters.Add(new OracleParameter("p_MAHP", textBox_hp_1.Text));
             command.Parameters.Add(new OracleParameter("p_MAHP", textBox_gv_1.Text));
+            command.Parameters.Add(new OracleParameter("p_MAHP", textBox_namhoc_1.Text));
+            command.Parameters.Add(new OracleParameter("p_MAHP", textBox_hk_1.Text));
+            command.Parameters.Add(new OracleParameter("p_MAHP", textBox_ct_1.Text));
+
             Console.WriteLine("Query: " + command.Parameters);
             try
             {
@@ -302,6 +353,8 @@ namespace PHANHE1_PRJ
                 connect.Close();
 
                 MessageBox.Show("Update Success");
+                load_Data_dataGridView_hocphan();
+                load_Data_dataGridView_phancong();
 
             }
             catch (Exception ex)
@@ -348,17 +401,94 @@ namespace PHANHE1_PRJ
 
         private void button12_Click(object sender, EventArgs e)
         {
+            OracleCommand command = new OracleCommand("BEGIN\nQL_TRUONGHOC_X.TRUONGKHOA_INSERT_NHANSU(:P_MANV,:P_HOTEN,:P_PHAI,:P_NGAYSINH,:P_PHUCAP, :DT, :VAITRO, :MADV);\nEND;", connect);
+            command.Parameters.Add(new OracleParameter("P_MANV", textBox_nv_3.Text));
+            command.Parameters.Add(new OracleParameter("P_HOTEN", textBox_hocten_3.Text));
+            command.Parameters.Add(new OracleParameter("P_PHAI", 'Y'));
+            command.Parameters.Add(new OracleParameter("P_NGAYSINH", textBox_ngaysinh_3.Text));
+            command.Parameters.Add(new OracleParameter("P_PHUCAP", textBox_phucap_3.Text));
+            command.Parameters.Add(new OracleParameter("DT", textBox_sdt_3.Text));
+            command.Parameters.Add(new OracleParameter("VAITRO", textBox_vaitro_3.Text));
+            command.Parameters.Add(new OracleParameter("MADV", textBox_dv_3.Text));
+            Console.WriteLine("Query: " + command.Parameters);
+            try
+            {
+                if (connect.State != System.Data.ConnectionState.Open)
+                {
+                    connect.Open();
+                }
+                OracleDataReader reader = command.ExecuteReader();
 
+                connect.Close();
+
+                MessageBox.Show("Update Success");
+                display_table_DS_NHANSU_2();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                Console.WriteLine("Error: " + ex.Message);
+            }
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
+            OracleCommand command = new OracleCommand("BEGIN\nQL_TRUONGHOC_X.TRUONGKHOA_DELETE_NHANSU(:P_MANV);\nEND;", connect);
+            command.Parameters.Add(new OracleParameter("P_MANV", textBox_nv_3.Text));
+            Console.WriteLine("Query: " + command.Parameters);
+            try
+            {
+                if (connect.State != System.Data.ConnectionState.Open)
+                {
+                    connect.Open();
+                }
+                OracleDataReader reader = command.ExecuteReader();
 
+                connect.Close();
+
+                MessageBox.Show("Update Success");
+                display_table_DS_NHANSU_2();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                Console.WriteLine("Error: " + ex.Message);
+            }
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
+            OracleCommand command = new OracleCommand("BEGIN\nQL_TRUONGHOC_X.TRUONGKHOA_UPDATE_NHANSU(:P_MANV,:P_HOTEN,:P_PHAI,:P_NGAYSINH,:P_PHUCAP, :DT, :VAITRO, :MADV);\nEND;", connect);
+            command.Parameters.Add(new OracleParameter("P_MANV", textBox_nv_3.Text));
+            command.Parameters.Add(new OracleParameter("P_HOTEN", textBox_hocten_3.Text));
+            command.Parameters.Add(new OracleParameter("P_PHAI", 'Y'));
+            command.Parameters.Add(new OracleParameter("P_NGAYSINH", textBox_ngaysinh_3.Text));
+            command.Parameters.Add(new OracleParameter("P_PHUCAP", textBox_phucap_3.Text));
+            command.Parameters.Add(new OracleParameter("DT", textBox_sdt_3.Text));
+            command.Parameters.Add(new OracleParameter("VAITRO", textBox_vaitro_3.Text));
+            command.Parameters.Add(new OracleParameter("MADV", textBox_dv_3.Text));
+            Console.WriteLine("Query: " + command.Parameters);
+            try
+            {
+                if (connect.State != System.Data.ConnectionState.Open)
+                {
+                    connect.Open();
+                }
+                OracleDataReader reader = command.ExecuteReader();
 
+                connect.Close();
+
+                MessageBox.Show("Update Success");
+                display_table_DS_NHANSU_2();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                Console.WriteLine("Error: " + ex.Message);
+            }
         }
     }
 }

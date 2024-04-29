@@ -44,3 +44,4 @@ C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ
 C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fStudent.resources
 C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fDangKyHocPhan.resources
 C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fThongtinSinhVien.resources
+C:\Users\dell\Desktop\ATBM\Project\PHANHE2_PRJ\PHANHE1_PRJ\obj\Debug\PHANHE1_PRJ.fNotification.resources
