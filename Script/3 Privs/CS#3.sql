@@ -270,7 +270,7 @@ CREATE OR REPLACE PROCEDURE QL_TRUONGHOC_X.THEM_SINHVIEN(
     MASV varchar2,
     HOTEN varchar2,
     PHAI char,  -- Y or N
-    NGAYSINH date,
+    NGAYSINH varchar2,
     DIACHI varchar2,
     DT char,
     MACT char,
@@ -279,7 +279,7 @@ CREATE OR REPLACE PROCEDURE QL_TRUONGHOC_X.THEM_SINHVIEN(
 AS
 BEGIN
     insert into QL_TRUONGHOC_X.SINHVIEN ( MASV, HOTEN, PHAI, NGAYSINH, DIACHI, DT, MACT, MANGANH, SOTCTL, DTBTL, MACS )
-        values( MASV, HOTEN, PHAI, NGAYSINH, DIACHI, DT, MACT, MANGANH, 0,0 , 'CS001');
+        values( MASV, HOTEN, PHAI, to_date(NGAYSINH,'DD-MM-YY'), DIACHI, DT, MACT, MANGANH, 0,0 , 'CS001');
     COMMIT;
 
     DBMS_OUTPUT.PUT_LINE('Cap nhat sinh vien thanh cong.');
@@ -295,7 +295,7 @@ CREATE OR REPLACE PROCEDURE QL_TRUONGHOC_X.CAPNHAT_SINHVIEN(
     I_MASV varchar2,
     I_HOTEN varchar2,
     I_PHAI char,  -- Y or N
-    I_NGAYSINH date,
+    I_NGAYSINH varchar2,
     I_DIACHI varchar2,
     I_DT char,
     I_MACT char,
@@ -307,7 +307,7 @@ BEGIN
     UPDATE QL_TRUONGHOC_X.SINHVIEN 
     SET  HOTEN = I_HOTEN ,
         PHAI = I_PHAI,
-        NGAYSINH = I_NGAYSINH,
+        NGAYSINH = to_date(I_NGAYSINH,'DD-MM-YY'),
         DIACHI = I_DIACHI,
         DT = I_DT,
         MACT = I_MACT,
@@ -323,7 +323,9 @@ EXCEPTION
 END;
 /
 
-
+select * from QL_TRUONGHOC_X.PHANCONG;
+SELECT * FROM QL_TRUONGHOC_X.KHMO;
+SELECT * FROM QL_TRUONGHOC_X.HOCPHAN;
 -------
 
 
