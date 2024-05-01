@@ -127,6 +127,12 @@
     <Compile Include="fNhanSu.Designer.cs">
       <DependentUpon>fNhanSu.cs</DependentUpon>
     </Compile>
+    <Compile Include="fNhatKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhatKy.Designer.cs">
+      <DependentUpon>fNhatKy.cs</DependentUpon>
+    </Compile>
     <Compile Include="fNotification.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fNhanSu.resx">
       <DependentUpon>fNhanSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNhatKy.resx">
+      <DependentUpon>fNhatKy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fNotification.resx">
       <DependentUpon>fNotification.cs</DependentUpon>

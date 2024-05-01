@@ -361,6 +361,8 @@
             // 
             // dataGridView_hocphan
             // 
+            this.dataGridView_hocphan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dataGridView_hocphan.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.dataGridView_hocphan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_hocphan.Location = new System.Drawing.Point(17, 399);
             this.dataGridView_hocphan.Name = "dataGridView_hocphan";

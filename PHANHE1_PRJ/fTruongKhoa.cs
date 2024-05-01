@@ -323,6 +323,8 @@ namespace PHANHE1_PRJ
                 connect.Close();
 
                 MessageBox.Show("Update Success");
+                load_Data_dataGridView_hocphan();
+                load_Data_dataGridView_phancong();
 
             }
             catch (Exception ex)

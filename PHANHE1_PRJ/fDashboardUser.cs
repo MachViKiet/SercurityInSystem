@@ -65,5 +65,17 @@ namespace PHANHE1_PRJ
                 this.Show();
             }
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            fNhatKy noti = new fNhatKy(connect);
+
+            if (!noti.IsDisposed)
+            {
+                this.Hide();
+                noti.ShowDialog();
+                this.Show();
+            }
+        }
     }
 }
